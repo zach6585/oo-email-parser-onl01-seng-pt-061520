@@ -4,8 +4,13 @@
 # or whitespace (' ').
 
 class EmailAddressParser
+  
   def initialize(email)
     @email = email 
   end 
+  
+  def parse(email)
+    if email.include?
+  
     
 end 
