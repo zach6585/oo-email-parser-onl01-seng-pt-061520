@@ -14,6 +14,7 @@ class EmailAddressParser
     if @email.include?(",")
       @email.split(",") each do |emal|
         if !:emails.include?(@email) 
+          :emails << @email 
       @@all << @email.split(",")
     else 
       @@all << 
