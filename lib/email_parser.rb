@@ -20,12 +20,6 @@ class EmailAddressParser
           end 
         end 
       end 
-    else 
-       @email.split(" ").each do |emal|
-        if !@emails.include?(emal) 
-          @emails << emal 
-        end 
-      end 
     end 
     @emails
   end 
