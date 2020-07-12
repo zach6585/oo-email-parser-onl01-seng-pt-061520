@@ -13,5 +13,7 @@ class EmailAddressParser
   def parse
     if @email.include?(",")
       @@all << @email.split(",")
+    else 
+      @@all << 
     
 end 
