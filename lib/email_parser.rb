@@ -27,6 +27,7 @@ class EmailAddressParser
         end 
       end 
     end 
+    @emails
   end 
   
 end 
