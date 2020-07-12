@@ -10,7 +10,7 @@ class EmailAddressParser
   end 
   
   def parse(email)
-    if email.include?
+    if @email.include?
   
     
 end 
