@@ -8,6 +8,7 @@ class EmailAddressParser
   
   def initialize(email)
     @email = email 
+    if @@all.include?
   end 
   
   def parse
