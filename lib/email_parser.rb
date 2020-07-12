@@ -19,7 +19,7 @@ class EmailAddressParser
             @emails << amal 
           end 
         end 
-        end 
+      end 
     else 
        @email.split(" ").each do |emal|
         if !@emails.include?(emal) 
