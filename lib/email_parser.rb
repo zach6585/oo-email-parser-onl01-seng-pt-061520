@@ -14,8 +14,9 @@ class EmailAddressParser
   def parse
     if @email.include?(",")
       @email.split(", ").each do |emal|
-        if !@emails.include?(emal) 
-          @emails << emal 
+        emal.split(" ").each do |amal|
+          if !@emails.include?(amal) 
+            @emails << emal 
         end 
       end 
     else 
