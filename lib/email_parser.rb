@@ -23,5 +23,6 @@ class EmailAddressParser
           :emails << emal 
         end 
       end 
+    end 
   end 
 end 
