@@ -12,6 +12,8 @@ class EmailAddressParser
   
   def parse
     if @email.include?(",")
+      @email.split(",") each do |emal|
+        if @@all << 
       @@all << @email.split(",")
     else 
       @@all << 
