@@ -14,14 +14,14 @@ class EmailAddressParser
   def parse
     if @email.include?(",")
       @email.split(",").each do |emal|
-        if !:emails.include?(emal) 
-          :emails << emal 
+        if !@emails.include?(emal) 
+          @emails << emal 
         end 
       end 
     else 
        @email.split(" ").each do |emal|
-        if !:emails.include?(emal) 
-          :emails << emal 
+        if !@emails.include?(emal) 
+          @emails << emal 
         end 
       end 
     end 
